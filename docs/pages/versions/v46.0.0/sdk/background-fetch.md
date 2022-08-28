@@ -167,7 +167,7 @@ On Android, this module might listen when the device is starting up. It's necess
 
 ## API
 
-```js
+```js 
 import * as BackgroundFetch from 'expo-background-fetch';
 ```
 
