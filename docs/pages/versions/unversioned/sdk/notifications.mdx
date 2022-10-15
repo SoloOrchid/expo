@@ -232,6 +232,7 @@ export default function App() {
     });
 
     return () => {
+      //these functions needs to be used with unregister to avoid facing warnings/errors.
       Notifications.removeNotificationSubscription(notificationListener.current);
       Notifications.removeNotificationSubscription(responseListener.current);
     };
